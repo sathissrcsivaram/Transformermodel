@@ -301,7 +301,7 @@ class ISAB(layers.Layer):
     def build(self, input_shape):
         # learnable inducing points: broadcast along batch
         self.I = self.add_weight(
-            "inducing", shape=(1, self.m, self.d), initializer="glorot_uniform", trainable=True
+            name="inducing", shape=(1, self.m, self.d), initializer="glorot_uniform", trainable=True
         )
 
     def call(self, X, mask=None, training=None):
