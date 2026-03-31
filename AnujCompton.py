@@ -43,7 +43,7 @@ import csv
 #os.makedirs(SAVE_DIR, exist_ok=True)
 
 #Googlecolab path version
-CSV_PATH = "/content/drive/MyDrive/Transformermodel/eventset.csv"
+CSV_PATH = "/content/mydrive/MyDrive/Transformermodel/eventset.csv"
 SAVE_DIR = "/content/Results/Transformer/Trans07_processed_result"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
